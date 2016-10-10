@@ -1,9 +1,11 @@
 var canvasDiv = document.getElementById("drawingArea");
 var canvas = canvasDiv.getContext('2d');
+//grass starts
 canvas.fillStyle = "green";
 canvas.fillRect(50,140,750,450);
 canvas.fillRect(0,190,750,1000);
 canvas.fillRect(100,140,1200,1000);
+//grass ends
 //barn code
 canvas.fillRect(50,100,750,400);
 canvas.fillStyle = "gray";
