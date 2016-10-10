@@ -4,7 +4,7 @@ canvas.fillStyle = "green";
 canvas.fillRect(50,140,750,450);
 canvas.fillRect(0,190,750,1000);
 canvas.fillRect(100,140,1200,1000);
-canvas.fillStyle = "red";
+//barn code
 canvas.fillRect(50,100,750,400);
 canvas.fillStyle = "gray";
 for(var i = 0; i <13; i++){
@@ -13,6 +13,7 @@ canvas.fillRect(50,120 + (i*30),750,5);
 for(var i = 0; i< 25; i++){
   canvas.fillRect(70 + (i*30),100,5,400);
 }
+
 canvas.fillStyle = "darkred";
 canvas.beginPath();
 canvas.moveTo(800,100);
@@ -42,13 +43,16 @@ canvas.lineTo(950,425);
 canvas.lineTo(950,250);
 canvas.lineTo(850,275)
 canvas.fill()
-
+//barn code ends
+//sun starts
 canvas.beginPath();
 canvas.fillStyle = "yellow";
 canvas.arc(0,0,90,0,90)
 canvas.stroke();
 canvas.fill();
+//sun ends
 
+//pig starts
 canvas.fillStyle = "pink";
 canvas.fillRect(400,750,120,50);
 canvas.fillRect(490,800,30,50);
@@ -97,3 +101,4 @@ canvas.fill();
 
 canvas.fillStyle="pink";
 canvas.fillRect(385,750,15,10);
+//pig ends
